@@ -1,0 +1,26 @@
+Add a paragraph. Use the <p> tag to create a paragraph:
+<p>This is to add words to the website.</p>
+
+Adding a heading. Use heading tags (<h1>, <h2>, etc.) for headings:
+<h2>News Update</h2>
+
+#Emphasizing text. Use <strong> for bold text and <em> for italic text:
+#<p>This is an <strong>important</strong> update. This <em>new feature</em>!</p>
+
+Adding Bulleted Lists:
+<ul>
+    <li>First bullet point</li>
+    <li>Second bullet point</li>
+    <li>Third bullet point</li>
+</ul>
+
+Adding Numbered Lists
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
+
+Adding Links
+Use the <a> tag to create a hyperlink (target="_blank" opens the link in a new browser tab):
+<a href="https://www.example.com" target="_blank">Visit Example</a>
