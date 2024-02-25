@@ -24,7 +24,7 @@
     color: #f8dbe9; /* Adjust the color to fit your design */
 }
 
-/* Optional: if you use progress bars for technical skills */
+/* Optional: if you use progress bars for technical skills TODO*/
 .skill-progress {
     width: 100%;
     background-color: #eee;
@@ -34,7 +34,7 @@
 .skill-progress-bar {
     height: 5px;
     border-radius: 3px;
-    background-color: #4a90e2; /* Adjust the color to match your design */
+    background-color: #4a90e2; 
 }
 
   /* Footer */
@@ -271,8 +271,19 @@ path {
     nav#navbar {
       padding: 10px 20px;
     }
-  
+
     nav#navbar ul {
       flex-direction: column;
     }    
+
+    .card {
+      margin: 0;
+      margin-bottom: 1em;
+      padding: 2em;
+      border-radius: 10px;
+    }
+
+    main {
+      padding: 1em;
+    }
   }

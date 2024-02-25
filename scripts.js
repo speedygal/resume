@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    let userToggledMode = false;
+
     function getCurrentTimeAsPercentage() {
         const now = new Date();
         const hours = now.getHours();
@@ -45,11 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalMinutesInDay = 24 * 60;
         const currentTimeInMinutes = hours * 60 + minutes;
         const timeAsPercentage = (currentTimeInMinutes / totalMinutesInDay) * 100;
-        updateMode(hours);
+        if (!userToggledMode) { 
+            updateMode(hours);
+        }
         return timeAsPercentage;
     }
     
     function toggleMode() {
+        userToggledMode = true;
         // Toggle between light and dark mode directly
         const isDarkMode = document.body.classList.contains('dark-mode');
         if (isDarkMode) {
